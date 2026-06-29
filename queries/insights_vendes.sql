@@ -1,0 +1,1 @@
+-- Aqui queries complexas (JOINs, Window Functions, Group By)
