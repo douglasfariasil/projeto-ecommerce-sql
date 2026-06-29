@@ -1,4 +1,5 @@
 -- Script que cria as tabelas automaticamente no Docker, caso elas não existam.
+USE ecommerce_db;
 
 -- Criação da tabela de Clientes
 CREATE TABLE IF NOT EXISTS clientes (
@@ -61,3 +62,22 @@ INSERT INTO pedidos (cliente_id, produto_id, quantidade, status_pedido) VALUES
 (5, 4, 1, 'Processando'),
 (6, 6, 4, 'Pendente'),
 (7, 7, 2, 'Cancelado');
+
+
+-- Tabela real para os clientes da Olist
+CREATE TABLE IF NOT EXISTS olist_clientes (
+    customer_id VARCHAR(50) PRIMARY KEY,
+    customer_unique_id VARCHAR(50) NOT NULL,
+    customer_zip_code_prefix INT NOT NULL,
+    customer_city VARCHAR(100) NOT NULL,
+    customer_state VARCHAR(2) NOT NULL
+);
+
+-- Para carregar o arquivo CSV para a tabela olist_clientes, você pode usar o seguinte comando SQL:
+LOAD DATA INFILE '/var/lib/mysql-files/olist_customers_dataset.csv'
+INTO TABLE olist_clientes
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
