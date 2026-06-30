@@ -12,4 +12,3 @@ GROUP BY
     customer_state
 ORDER BY
     total_clientes DESC;
- 
