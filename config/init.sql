@@ -81,3 +81,18 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
+
+-- Tabela real para os produtos da Olist
+CREATE TABLE IF NOT EXISTS olist_produtos (
+    product_id VARCHAR(50) PRIMARY KEY,
+    product_category_name VARCHAR(100),
+    product_name_lenght INT,
+    product_description_lenght INT,
+    product_photos_qty INT,
+    product_weight_g INT,
+    product_length_cm INT,
+    product_height_cm INT,
+    product_width_cm INT
+);
+
+-- Tabela de junção: Itens dos Pedidos (Une produtos e pedidos)
