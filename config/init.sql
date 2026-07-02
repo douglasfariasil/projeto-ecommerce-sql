@@ -73,15 +73,6 @@ CREATE TABLE IF NOT EXISTS olist_clientes (
     customer_state VARCHAR(2) NOT NULL
 );
 
--- Para carregar o arquivo CSV para a tabela olist_clientes, você pode usar o seguinte comando SQL:
-LOAD DATA INFILE '/var/lib/mysql-files/olist_customers_dataset.csv'
-INTO TABLE olist_clientes
-FIELDS TERMINATED BY ','
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
-
-
 -- Tabela real para os produtos da Olist
 CREATE TABLE IF NOT EXISTS olist_produtos (
     product_id VARCHAR(50) PRIMARY KEY,
@@ -96,3 +87,12 @@ CREATE TABLE IF NOT EXISTS olist_produtos (
 );
 
 -- Tabela de junção: Itens dos Pedidos (Une produtos e pedidos)
+CREATE TABLE IF NOT EXISTS olist_pedido_itens (
+    order_id VARCHAR(50),
+    order_item_id INT,
+    product_id VARCHAR(50),
+    seller_id VARCHAR(50),
+    shipping_limit_date DATETIME,
+    price DECIMAL(10, 2),
+    freight_value DECIMAL(10, 2)
+);
