@@ -49,8 +49,10 @@ Clonar o repositório:
 Bash
 
 
-git clone [https://github.com/SEU-USUARIO/seu-repositorio.git](https://github.com/SEU-USUARIO/seu-repositorio.git)
+git clone [https://github.com/douglasfariasil/projeto-ecommerce-sql.git](https://git@github.com:douglasfariasil/projeto-ecommerce-sql.git)
+
 cd projeto-ecommerce-sql
+
 Subir a infraestrutura com um único comando:
 
 Bash
