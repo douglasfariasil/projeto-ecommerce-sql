@@ -3,6 +3,8 @@
 [![SQL](https://img.shields.io/badge/SQL-MySQL%208.0-blue.svg)](https://www.mysql.com/)
 [![Docker](https://img.shields.io/badge/Docker-Container-blue.svg)](https://www.docker.com/)
 [![Git](https://img.shields.io/badge/Git-Version%20Control-orange.svg)](https://git-scm.com/)
+[![Linkedin](https://img.shields.io/badge/linkedin-blue.svg)](https://www.linkedin.com/in/douglasfariasil/)
+[![GitHub](https://img.shields.io/badge/GitHub%20-blue.svg)](https://github.com/douglasfariasil)
 
 Este projeto simula o ambiente de engenharia e análise de dados de um e-commerce real de grande porte. Ele utiliza o **Docker** para subir uma instância isolada do **MySQL 8.0**, estruturando e populando um banco de dados com **mais de 200 mil registros reais** baseados no dataset público da Olist (maior integradora de marketplaces do Brasil).
 
@@ -49,8 +51,7 @@ Clonar o repositório:
 Bash
 
 
-git clone [https://github.com/douglasfariasil/projeto-ecommerce-sql.git](https://git@github.com:douglasfariasil/projeto-ecommerce-sql.git)
-
+git clone https://github.com/douglasfariasil/projeto-ecommerce-sql.git
 cd projeto-ecommerce-sql
 
 Subir a infraestrutura com um único comando:
@@ -59,7 +60,7 @@ Bash
 
 docker compose up -d
 
-Nota: Se a porta 3306 do seu sistema local já estiver ocupada, o projeto está configurado via mapeamento para responder na porta externa 3307.
+Nota: Se a porta 3306 do seu sistema local já estiver ocupada, certifique-se de ajustar o mapeamento de portas no docker-compose.yml para uma porta alternativa (como 3307).
 
 Carga de Dados Real:
 Os dados em massa são carregados utilizando comandos otimizados de ingestão direto no prompt do MySQL no container:
@@ -79,8 +80,9 @@ Rio de Janeiro (RJ) & Minas Gerais (MG): Seguem como os principais polos secund�
 2. KPIs Consolidados do E-Commerce
 Processamento de mais de 112.000 linhas de itens de pedidos para cálculo ágil de indicadores de performance financeira (faturamento acumulado, ticket médio por item e despesa logística com fretes).
 
-👨‍💻 Autor
-Desenvolvido por Douglas Silva 
+## 👨‍💻 Autor
+
+Desenvolvido por **Douglas Silva**
 
 * [Meu LinkedIn](https://www.linkedin.com/in/douglasfariasil/)
 * [Meu GitHub](https://github.com/douglasfariasil)
