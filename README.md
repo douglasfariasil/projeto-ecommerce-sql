@@ -80,6 +80,7 @@ Rio de Janeiro (RJ) & Minas Gerais (MG): Seguem como os principais polos secund�
 Processamento de mais de 112.000 linhas de itens de pedidos para cálculo ágil de indicadores de performance financeira (faturamento acumulado, ticket médio por item e despesa logística com fretes).
 
 👨‍💻 Autor
-Desenvolvido por Douglas Silva * LinkedIn
+Desenvolvido por Douglas Silva 
 
-GitHub
+* [Meu LinkedIn](https://www.linkedin.com/in/douglasfariasil/)
+* [Meu GitHub](https://github.com/douglasfariasil)
