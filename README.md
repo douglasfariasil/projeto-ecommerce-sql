@@ -29,6 +29,12 @@ O repositório está organizado seguindo as melhores práticas de desenvolviment
 ├── 📄 docker-compose.yml # Orquestração do container do banco de dados
 └── 📄 README.md          # Documentação do projeto
 
+### 🐍 Automação e Segmentação com Python
+Para estender os recursos analíticos, desenvolvi um script de automação de marketing em Python (`automacao_marketing.py`) que:
+1. Utiliza o ambiente virtual moderno **`uv`** para isolamento de dependências.
+2. Conecta-se de forma transparente ao banco de dados MySQL no Docker.
+3. Executa queries parametrizadas (protegendo o banco contra SQL Injection) para segmentar públicos-alvo específicos.
+4. Gera relatórios dinâmicos em arquivos `.csv` na pasta `outputs/` para munir equipes de negócios e marketing de forma automatizada.
 
 🛠️ Tecnologias e Conceitos Utilizados
 Banco de Dados: MySQL 8.0 (Modelagem Relacional, Índices, Agregações).
