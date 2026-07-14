@@ -119,11 +119,5 @@ Meu LinkedIn
 
 Meu GitHub
 
-<<<<<<< HEAD
  [Meu LinkedIn](https://www.linkedin.com/in/douglasfaria-dev/)
  [Meu GitHub](https://github.com/douglasfariasil)
-=======
-[Meu LinkedIn](https://www.linkedin.com/in/douglasfaria-dev/)
-[Meu GitHub](https://github.com/douglasfariasil)
->>>>>>> b08928618d614bdf419a20bd75dff3d4fc71e441
-```
