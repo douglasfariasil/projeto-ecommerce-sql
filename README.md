@@ -6,7 +6,6 @@
 [![Linkedin](https://img.shields.io/badge/linkedin-blue.svg)](https://www.linkedin.com/in/douglasfariasil/)
 [![GitHub](<https://img.shields.io/badge/GitHub%20-blue.svg>)](https://github.com/douglasfariasil)
 
-
 ```
 Este projeto simula o ambiente de engenharia e análise de dados de um e-commerce real de grande porte. Ele utiliza o **Docker** para subir uma instância isolada do **MySQL 8.0**, estruturando e populando um banco de dados com **mais de 200 mil registros reais** baseados no dataset público da Olist (maior integradora de marketplaces do Brasil).
 
@@ -120,6 +119,11 @@ Meu LinkedIn
 
 Meu GitHub
 
+<<<<<<< HEAD
  [Meu LinkedIn](https://www.linkedin.com/in/douglasfaria-dev/)
  [Meu GitHub](https://github.com/douglasfariasil)
+=======
+[Meu LinkedIn](https://www.linkedin.com/in/douglasfaria-dev/)
+[Meu GitHub](https://github.com/douglasfariasil)
+>>>>>>> b08928618d614bdf419a20bd75dff3d4fc71e441
 ```
