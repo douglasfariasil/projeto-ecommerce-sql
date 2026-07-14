@@ -98,7 +98,7 @@ Como executar o gerador de relatórios:
 
 Bash
 
-# Com o ambiente virtual ativo:
+ Com o ambiente virtual ativo:
 uv run gerar_relatorios.py
 
 👨‍💻 Autor
@@ -109,6 +109,6 @@ Meu LinkedIn
 
 Meu GitHub
 
-* [Meu LinkedIn](https://www.linkedin.com/in/douglasfaria-dev/)
-* [Meu GitHub](https://github.com/douglasfariasil)
+[Meu LinkedIn](https://www.linkedin.com/in/douglasfaria-dev/)
+[Meu GitHub](https://github.com/douglasfariasil)
 ```
