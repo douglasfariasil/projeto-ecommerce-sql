@@ -6,7 +6,12 @@
 [![Linkedin](https://img.shields.io/badge/linkedin-blue.svg)](https://www.linkedin.com/in/douglasfariasil/)
 [![GitHub](<https://img.shields.io/badge/GitHub%20-blue.svg>)](https://github.com/douglasfariasil)
 
+
+```
 Este projeto simula o ambiente de engenharia e análise de dados de um e-commerce real de grande porte. Ele utiliza o **Docker** para subir uma instância isolada do **MySQL 8.0**, estruturando e populando um banco de dados com **mais de 200 mil registros reais** baseados no dataset público da Olist (maior integradora de marketplaces do Brasil).
+
+O objetivo principal é demonstrar competência em modelagem de dados, conteinerização de infraestrutura de banco de dados, otimização de cargas massivas (ETL) e extração de insights de negócios por meio de SQL avançado.
+```
 
 O objetivo principal é demonstrar competência em modelagem de dados, conteinerização de infraestrutura de banco de dados, otimização de cargas massivas (`ETL`) e extração de insights de negócios por meio de SQL avançado.
 
@@ -17,16 +22,22 @@ O objetivo principal é demonstrar competência em modelagem de dados, conteiner
 O repositório está organizado seguindo as melhores práticas de desenvolvimento do mercado:
 
 ```text
+
 📂 projeto-ecommerce-sql/
 ├── 📂 config/
 │   ├── init.sql          # Script DDL de criação automatizada das tabelas
 │   ├── olist_customers_dataset.csv
 │   └── olist_order_items_dataset.csv
+├── 📂 exports/           # 📊 Relatórios gerados automaticamente para BI
+│   ├── distribuicao_estados.csv
+│   ├── relatorio_ecommerce.xlsx
+│   └── relatorio_executivo.pdf
 ├── 📂 queries/
 │   ├── insights_vendas.sql    # Queries focadas em métricas de faturamento
 │   └── relatorio_gerencial.sql # Queries focadas em dados demográficos e KPIs
 ├── 📄 .gitignore         # Configurado para ignorar dados locais de volume do Docker
 ├── 📄 docker-compose.yml # Orquestração do container do banco de dados
+├── 📄 gerar_relatorios.py # Pipeline de automação e extração de dados em Python
 └── 📄 README.md          # Documentação do projeto
 
 🛠️ Tecnologias e Conceitos Utilizados
@@ -98,7 +109,7 @@ Como executar o gerador de relatórios:
 
 Bash
 
-# Com o ambiente virtual ativo:
+ Com o ambiente virtual ativo:
 uv run gerar_relatorios.py
 
 👨‍💻 Autor
@@ -109,6 +120,6 @@ Meu LinkedIn
 
 Meu GitHub
 
-* [Meu LinkedIn](https://www.linkedin.com/in/douglasfaria-dev/)
-* [Meu GitHub](https://github.com/douglasfariasil)
+ [Meu LinkedIn](https://www.linkedin.com/in/douglasfaria-dev/)
+ [Meu GitHub](https://github.com/douglasfariasil)
 ```
